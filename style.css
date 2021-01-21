@@ -1,0 +1,15 @@
+body {
+    background: rgb(255, 81, 81);
+}
+
+.loginDiv1,
+.loginDiv2 {
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+
+.textIn_login {
+    border: 1.5px dashed black;
+}
