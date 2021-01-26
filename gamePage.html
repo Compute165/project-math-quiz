@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Math Quiz</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="
+    style.css">
+
+</head>
+
+<body>
+
+    <h4 id="player1nameCorner"></h4> <span id="player1ScoreCorner"></span>
+    <br>
+    <h4 id="player2nameCorner"></h4> <span id="player2ScoreCorner"></span>
+
+    <div class="container">
+        <center>
+
+            <h1 style="text-decoration: underline; font-size: 48px;;">The Math Quiz</h1>
+            <br><br><br>
+            <div id="output">
+                <span id="gameQ"></span>
+                <br><br>
+                <label for="gameAInput">Answer : </label>
+                <input type="number">
+                <br>
+                <button id="AnsSubmit" style="border-radius: 10px; background-color: rgba(146, 255, 132, 0.794);">Check</button>
+            </div>
+
+            <br><br><br>
+            <div class="col-lg-4 col-sm-8 col-xs-11" style="border: 3px solid blue; background: white;
+                padding: 10px;
+                float: none;
+                border-radius: 15px;">
+                <h3>Player 1 Login:</h3>
+                <label>Username:</label>
+                <input type="text" id="player1_name_input" class="form-control textIn_login" placeholder="Player 1">
+                <br>
+            </div>
+            <br>
+            <div class="col-lg-4 col-sm-8 col-xs-11" style="border: 3px solid red; background: white;
+                padding: 10px;
+                float: none;
+                border-radius: 15px;;">
+                <h3>Player 2 Login:</h3>
+                <label>Username:</label>
+                <input type="text" id="player2_name_input" class="form-control textIn_login" placeholder="Player 2">
+                <br>
+            </div>
+            <br>
+            <button style="width: 300px; border-radius: 15px; height: 35px; background-color: skyblue; font-size: 20px;" onclick="myLogin()">Login</button>
+
+
+        </center>
+    </div>
+</body>
+
+<script src="gamePage.js"></script>
+
+</html>

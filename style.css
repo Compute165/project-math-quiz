@@ -13,3 +13,24 @@ body {
 .textIn_login {
     border: 1.5px dashed black;
 }
+
+#output {
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 30px;
+    float: none;
+    text-align: left;
+    width: fit-content;
+}
+
+#gameQ {
+    font-size: 40px;
+    text-decoration: solid;
+}
+
+#AnsSubmit {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
